@@ -2,7 +2,7 @@
 
 #### _Allows the user to add and track animals., 5/6/2020_
 
-#### By _**DJ Zevenbergen & Eric Settel**_
+#### By _**DJ Zevenbergen & Eric Settels**_
 
 ## Description
 
@@ -42,4 +42,4 @@ _This application uses C# classes, looping, arrays, and etc to allow the user to
 
 Copyright © 2020
 
-**_DJ Zevenbergen & Eric Settel_**
+**_DJ Zevenbergen & Eric Settels_**
