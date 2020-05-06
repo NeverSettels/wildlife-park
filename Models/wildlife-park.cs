@@ -4,6 +4,7 @@ namespace Zoo.Models
 {
   public class Animal
   {
+    private int _Id;
     private string _Species;
     private int _Age;
     private string _Name;
@@ -11,12 +12,18 @@ namespace Zoo.Models
 
 
 
-    public Animal(string species, int age, string name, string location)
+    public Animal(int id, string species, int age, string name, string location)
     {
+      _Id = id;
       _Species = species;
       _Age = age;
       _Name = name;
       _Location = location;
+    }
+
+    public int GetId()
+    {
+      return _Id;
     }
 
     public string GetSpecies()
